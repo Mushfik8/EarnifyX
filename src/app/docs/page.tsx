@@ -39,7 +39,7 @@ const docLinks = [
 
 const socials = [
   { icon: Share2, label: "Twitter / X", handle: "@earnifyx", href: "https://twitter.com/earnifyx", color: "#1DA1F2" },
-  { icon: Send, label: "Telegram", handle: "t.me/earnifyx", href: "https://t.me/earnifyx", color: "#2AABEE" },
+  { icon: Send, label: "Telegram", handle: "t.me/earnifyxtoken", href: "https://t.me/earnifyxtoken", color: "#2AABEE" },
   { icon: Globe, label: "Discord", handle: "discord.gg/earnifyx", href: "#", color: "#5865F2" },
   { icon: Code, label: "GitHub", handle: "github.com/earnifyx", href: "#", color: "#E6EDF3" },
   { icon: Mail, label: "Email", handle: "hello@earnifyx.io", href: "mailto:hello@earnifyx.io", color: "#A78BFA" },

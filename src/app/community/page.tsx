@@ -26,7 +26,7 @@ export default function CommunityPage() {
 
   const socialChannels = [
     { name: "Twitter / X", handle: "@earnifyx", followers: "45k+", icon: Twitter, color: "hover:text-blue-400" },
-    { name: "Telegram", handle: "t.me/earnifyx", followers: "28k+", icon: Send, color: "hover:text-blue-500" },
+    { name: "Telegram", handle: "t.me/earnifyxtoken", followers: "28k+", icon: Send, color: "hover:text-blue-500", href: "https://t.me/earnifyxtoken" },
     { name: "Discord", handle: "discord.gg/earnifyx", followers: "32k+", icon: Share2, color: "hover:text-indigo-500" },
     { name: "GitHub", handle: "earnifyx-protocol", followers: "1.2k+", icon: Github, color: "hover:text-gray-400" },
   ];
@@ -94,7 +94,7 @@ export default function CommunityPage() {
                   {socialChannels.map((channel, i) => (
                     <motion.a 
                       key={i}
-                      href="#"
+                      href={channel.href || "#"}
                       whileHover={{ scale: 1.02 }}
                       className={`glass p-6 rounded-2xl border border-white/10 flex flex-col gap-4 transition-all ${channel.color}`}
                     >

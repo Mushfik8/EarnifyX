@@ -27,7 +27,7 @@ const Footer = () => {
 
   const socials = [
     { icon: Share2, label: "Twitter", href: "#" },
-    { icon: Send, label: "Telegram", href: "#" },
+    { icon: Send, label: "Telegram", href: "https://t.me/earnifyxtoken" },
     { icon: Code, label: "GitHub", href: "#" },
     { icon: Mail, label: "Email", href: "#" },
   ];
