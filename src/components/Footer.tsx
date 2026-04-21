@@ -74,12 +74,22 @@ const Footer = () => {
               <ul className="flex flex-col gap-2.5">
                 {items.map((item) => (
                   <li key={item.name}>
-                    <Link
-                      href={item.href}
-                      className="text-sm text-white/40 hover:text-white/80 transition-colors duration-200"
-                    >
-                      {item.name}
-                    </Link>
+                    {item.href.endsWith('.pdf') ? (
+                      <a
+                        href={item.href}
+                        download
+                        className="text-sm text-white/40 hover:text-white/80 transition-colors duration-200"
+                      >
+                        {item.name}
+                      </a>
+                    ) : (
+                      <Link
+                        href={item.href}
+                        className="text-sm text-white/40 hover:text-white/80 transition-colors duration-200"
+                      >
+                        {item.name}
+                      </Link>
+                    )}
                   </li>
                 ))}
               </ul>

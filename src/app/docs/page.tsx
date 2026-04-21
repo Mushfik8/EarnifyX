@@ -141,7 +141,7 @@ export default function DocsPage() {
                   <p className="text-sm text-white/45 leading-relaxed mb-6">{d.desc}</p>
                   <a
                     href={d.href}
-                    download={d.filename}
+                    download
                     className="inline-flex items-center gap-2.5 px-5 py-2.5 rounded-xl text-sm font-bold text-white transition-all duration-200 group-hover:gap-3"
                     style={{
                       background: `linear-gradient(135deg, ${d.accent}cc, ${d.accent}88)`,
