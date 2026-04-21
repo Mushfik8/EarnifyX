@@ -13,8 +13,8 @@ const Footer = () => {
     ],
     Resources: [
       { name: "Documentation", href: "/docs" },
-      { name: "Whitepaper", href: "/whitepaper.pdf" },
-      { name: "Pitch Deck", href: "/pitch-deck.pdf" },
+      { name: "Whitepaper", href: "/Earnifyx_Whitepaper_v1.0.pdf" },
+      { name: "Pitch Deck", href: "/Pitch_Deck.pdf" },
       { name: "AI System", href: "/docs/ai-system" },
       { name: "FAQ", href: "/faq" },
     ],

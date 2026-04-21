@@ -107,12 +107,12 @@ export default function Home() {
                 </Link>
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <a href="/whitepaper.pdf" download className="btn-secondary flex items-center justify-center gap-2 text-lg px-8 py-4 font-semibold">
+                <a href="/Earnifyx_Whitepaper_v1.0.pdf" download className="btn-secondary flex items-center justify-center gap-2 text-lg px-8 py-4 font-semibold">
                   Whitepaper
                 </a>
               </motion.div>
               <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
-                <a href="/pitch-deck.pdf" download className="btn-secondary flex items-center justify-center gap-2 text-lg px-8 py-4 font-semibold border-primary/30">
+                <a href="/Pitch_Deck.pdf" download className="btn-secondary flex items-center justify-center gap-2 text-lg px-8 py-4 font-semibold border-primary/30">
                   Pitch Deck
                 </a>
               </motion.div>

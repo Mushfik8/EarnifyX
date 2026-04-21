@@ -82,10 +82,10 @@ export default function AboutPage() {
               Read the Docs
               <ArrowRight size={16} />
             </Link>
-            <a href="/whitepaper.pdf" download className="btn-secondary px-8 py-3 flex items-center justify-center">
+            <a href="/Earnifyx_Whitepaper_v1.0.pdf" download className="btn-secondary px-8 py-3 flex items-center justify-center">
               Whitepaper
             </a>
-            <a href="/pitch-deck.pdf" download className="btn-secondary px-8 py-3 flex items-center justify-center">
+            <a href="/Pitch_Deck.pdf" download className="btn-secondary px-8 py-3 flex items-center justify-center">
               Pitch Deck
             </a>
           </motion.div>
